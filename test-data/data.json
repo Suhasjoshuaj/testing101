@@ -1,0 +1,43 @@
+{
+  "users": {
+    "valid": {
+      "username": "standard_user",
+      "password": "secret_sauce"
+    },
+    "invalid": {
+      "username": "wrong_user",
+      "password": "wrong_pass"
+    },
+    "locked": {
+      "username": "locked_out_user",
+      "password": "secret_sauce"
+    }
+  },
+  "apiIds": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "formInputs": {
+    "valid": {
+      "name": "Suhas",
+      "email": "suhas@test.com"
+    },
+    "invalid": {
+      "name": "",
+      "email": "not-an-email"
+    }
+  },
+  "baseURLs": {
+    "ui": "https://www.saucedemo.com",
+    "todo": "https://demo.playwright.dev/todomvc",
+    "internet": "https://the-internet.herokuapp.com",
+    "jsonplaceholder": "https://jsonplaceholder.typicode.com",
+    "reqres": "https://reqres.in",
+    "dummyjson": "https://dummyjson.com"
+  },
+  "performance": {
+    "maxResponseTimeMs": 2000
+  }
+}
